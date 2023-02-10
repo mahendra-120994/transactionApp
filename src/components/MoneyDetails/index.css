@@ -1,0 +1,56 @@
+* {
+  font-family: 'Roboto';
+}
+.money_details_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.money_details_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 5px;
+  height: 80px;
+}
+.green {
+  border: solid 1px #84cc16;
+  background-color: #ecfccb;
+}
+.aqua {
+  border: solid 1px #06b6d4;
+  background-color: #cffafe;
+}
+.purple {
+  border: solid 1px #7c3aed;
+  background-color: #ede9fe;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-clip: #0fffff;
+  margin: 10px;
+}
+.icon_img {
+  width: 100%;
+}
+.balance_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.balance_show {
+  color: #334155;
+  font-size: 16px;
+  margin: 0;
+}
+.amount_show {
+  color: #334155;
+  font-size: 20px;
+  margin: 0;
+}

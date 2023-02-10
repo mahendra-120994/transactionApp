@@ -1,0 +1,21 @@
+.history_list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px #d7dfe9;
+  padding: 0 5px 0 5px;
+}
+.list_item {
+  color: #475569;
+  margin: 10px;
+  font-size: 16px;
+  margin: 5px;
+}
+.dlt_btn {
+  border: none;
+  background-color: #ffffff;
+}
+.dlt_img {
+  width: 20px;
+  cursor: pointer;
+}
