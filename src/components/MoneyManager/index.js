@@ -80,10 +80,7 @@ class MoneyManager extends Component {
               </p>
             </div>
 
-            <MoneyDetails
-              transactionsList={transactionsList}
-              typeList={transactionTypeOptions}
-            />
+            <MoneyDetails transactionsList={transactionsList} />
             <div className="transaction_history_container">
               <div className="add_transaction_container">
                 <h1 className="tran_heading">Add Transaction</h1>
